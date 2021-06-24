@@ -26,120 +26,30 @@ body {
 }
 
 .main {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background: -webkit-gradient(linear, left top, right top, from(#9c27b0), to(#8ecdff));
-  background: linear-gradient(to right, #9c27b0, #8ecdff);
+  margin: 0px auto;
+  max-width: 700px;
 }
 
-.main nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.addstyle {
+  background-color: #dcdada;
+  padding: 10px;
 }
 
-.main nav .nav-links ul {
-  list-style-type: none;
-}
-
-.main nav .nav-links ul li {
-  display: inline-block;
-}
-
-.main nav .nav-links ul li a {
-  display: block;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  padding: 1rem;
-  text-decoration: none;
-}
-
-.main .information {
-  width: 1000px;
-  height: 1000px;
-  position: absolute;
-  top: 50%;
-  left: -10%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  border: 1px solid red;
-}
-
-.main .information #circle {
-  width: 1000px;
-  height: 1000px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 1px solid blue;
-  border-radius: 50%;
-  background-color: cornsilk;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.main .information #circle .features {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.timeStyle {
+  background-color: #686767;
   color: #fff;
+  padding: 10px;
 }
 
-.main .information #circle .features div {
-  margin-left: 30px;
+.main textarea {
+  width: 100%;
 }
 
-.main .information #circle .features img {
-  width: 70px;
+.button-section {
+  margin: 10px 0px;
 }
 
-.main .information #circle .one {
-  top: 450px;
-  right: 50px;
-}
-
-.main .information #circle .two {
-  top: 150px;
-  left: 350px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-
-.main .information #circle .three {
-  bottom: 450px;
-  left: 50px;
-  -webkit-transform: rotate(-180deg);
-          transform: rotate(-180deg);
-}
-
-.main .information #circle .four {
-  bottom: 150px;
-  right: 350px;
-  -webkit-transform: rotate(-270deg);
-          transform: rotate(-270deg);
-}
-
-.main .controls {
-  position: absolute;
-  right: 10%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  text-align: center;
+.button-section button {
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
